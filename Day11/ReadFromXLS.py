@@ -1,6 +1,6 @@
 import xlrd
 
-path= ("F:\\NEEL\\Python Classes\\TestData.xlsx")
+path= ("F:\NEEL\Python Classes\TestData.xlsx")
 
 wb= xlrd.open_workbook(path)
 
