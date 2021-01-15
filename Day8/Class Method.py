@@ -18,6 +18,6 @@ class Students():
 
 
 s=Students
-# s.studentReg("Neel",545456,"Python","Bangalore")
+s.studentReg("Neel",545456,"Python","Bangalore")
 s.studentAdmin("Neel")
 s.studentTrip("Pune")
