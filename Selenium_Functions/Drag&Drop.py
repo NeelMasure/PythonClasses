@@ -12,3 +12,6 @@ dec= oc.driver.find_element_by_xpath("//*[@id='amt7']/li")
 
 act= ActionChains(oc.driver)
 act.drag_and_drop(src,dec).perform()
+
+time.sleep(4)
+oc.driver.quit()
